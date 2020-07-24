@@ -1,0 +1,97 @@
+
+
+.nBar__logo{
+    width: 10%;
+    height: 10%;
+    border: 0 0 3px 3px #e2e2e2;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nBar__header{
+    background-image: url("https://www.marbleindian.com/wp-content/uploads/2017/12/marine-black-marble.jpg");
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.3rem solid #919191;
+}
+
+.nBar__btn{
+    align-self: center;
+    border: 5px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.bar1,.bar2,.bar3{
+    width: 29px;
+    height: 5px;
+    margin: 1rem;
+    background-color: #f5f5f5;
+    transition: all 2s ease;
+}
+
+.nBar__links{
+    list-style-type: none;
+    transition: all 2s ease;
+    height: 0;
+    overflow: hidden;
+    border-bottom: 0.2rem solid #919191;
+
+}
+
+.nCollapse{
+    height: 240px;
+}
+ 
+.change .bar1{
+    transform: rotate(-45deg) translate(-10px, 10px);
+
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-7px, -8px);
+}
+
+.nBar__singleLink{
+    display: block;
+    background: #d3d3d3a8;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#3d3729;
+    transition: all 1s ease;
+    cursor: pointer;
+    border-bottom: 0.1rem solid #919191;
+
+}
+    
+.nBar__singleLink:hover{
+    padding-left: 2.5rem;
+    background: #545454;
+}
+
+header{
+    min-height: calc(100vh - 91.8px);
+    background: url("https://picjumbo.com/wp-content/uploads/white-marble-stone-background-texture-pattern_free_stock_photos_picjumbo_marble_free_stock_photos_picjumbo_com-2210x1473.jpg") center/cover no-repeat;
+}
+
+#home:hover{
+    background-color: #666666;
+}
+#html:hover{
+    background-color: #777777;
+}
+#javascript:hover{
+    background-color: #afafaf;
+}
+#css:hover{
+    background-color: #b9b9b9;
+}
